@@ -37,6 +37,7 @@ formBtn.addEventListener('click', ()=>{
 formClose.addEventListener('click', ()=>{
  loginForm.classList.remove('active');
 });
+//form ko lagi gareko on home screen 
 
 videoBtn.forEach(btn =>{
 btn.addEventListener('click', ()=>{
@@ -46,6 +47,7 @@ let src = btn.getAttribute('data-src');
 document.querySelector('#video-slider').src = src;
 });
 });
+//video ko lagi on home screen video slider 
 
 var swiper = new Swiper(".review-silder", {
    spaceBetween:20,
@@ -66,6 +68,7 @@ var swiper = new Swiper(".review-silder", {
     },
    },
   });
+//testimonials ko lagi slide js 
 var swiper = new Swiper(".brand-silder", {
    spaceBetween:20,
    loop:true,
@@ -85,3 +88,4 @@ var swiper = new Swiper(".brand-silder", {
     },
    },
   });
+// need to fix it brand section ko lagi
